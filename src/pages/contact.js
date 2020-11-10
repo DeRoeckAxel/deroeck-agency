@@ -75,7 +75,7 @@ const Contact = () => {
             <div>
               <RiUserLocationLine style={{height:'4rem', width:'4rem' }}/>
               <p>
-                Send us an email at {contactPageAddress}, {" "}{contactPagePostcode} {contactPageCity}
+                {contactPageAddress}, {" "}{contactPagePostcode} {contactPageCity}
               </p>
             </div>
           </div>
